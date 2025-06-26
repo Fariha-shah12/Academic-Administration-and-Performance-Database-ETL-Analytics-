@@ -23,24 +23,24 @@ This repository contains an end-to-end ETL pipeline and analytics framework for 
 ```
 
 ## ⚙️ Features
-Robust ETL Pipeline
+- Robust ETL Pipeline
 
-Ingests raw academic and performance data
+    Ingests raw academic and performance data
+    
+    Cleans, normalizes, and transforms datasets
+    
+    Loads processed data into a relational database (e.g., PostgreSQL, MySQL)
 
-Cleans, normalizes, and transforms datasets
+- Analytical Insights
 
-Loads processed data into a relational database (e.g., PostgreSQL, MySQL)
+    Interactive Jupyter notebook for analysis
+    
+    Performance trend charts (e.g. grades over time)
+    
+    Comparative analytics across departments or programs
 
-Analytical Insights
+- Modular & Configurable
 
-Interactive Jupyter notebook for analysis
-
-Performance trend charts (e.g. grades over time)
-
-Comparative analytics across departments or programs
-
-Modular & Configurable
-
-Independent modules for extract/transform/load stages
-
-Easy to extend to new data sources or metrics
+    Independent modules for extract/transform/load stages
+    
+    Easy to extend to new data sources or metrics
