@@ -47,7 +47,7 @@ This repository contains an end-to-end ETL pipeline and analytics framework for 
 
 
   ## Tools Used
-  - Prerequisites
+  
     -Python 3.8+
 
     -(Optional) Docker
@@ -59,3 +59,5 @@ This repository contains an end-to-end ETL pipeline and analytics framework for 
   https://public.tableau.com/app/profile/fariha.shah/viz/Student_Grading_System/DraftDashboard?publish=yes
 
   ```
+
+  
