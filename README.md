@@ -44,3 +44,18 @@ This repository contains an end-to-end ETL pipeline and analytics framework for 
     Independent modules for extract/transform/load stages
     
     Easy to extend to new data sources or metrics
+
+
+  ## Tools Used
+  - Prerequisites
+    -Python 3.8+
+
+    -(Optional) Docker
+
+    -PostgreSQL or MySQL instance
+
+  ## Link to Tableau Dashboard
+  ```
+  https://public.tableau.com/app/profile/fariha.shah/viz/Student_Grading_System/DraftDashboard?publish=yes
+
+  ```
