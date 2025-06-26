@@ -7,17 +7,17 @@ This repository contains an end-to-end ETL pipeline and analytics framework for 
 
 ## Project Structure
 ```
-├── data/  
-│   ├── raw/           # Unprocessed input files (e.g., CSV, Excel)
-│   └── processed/     # Cleaned and transformed datasets
-├── etl/               # Source code for ETL pipeline
-│   ├── extract.py     # Data ingestion from various sources
-│   ├── transform.py   # Cleaning and normalization logic
-│   └── load.py        # Upload processed data to the database
-├── analytics/         # Analytics and visualization scripts
-│   └── dashboards.ipynb  # Interactive notebook with charts and metrics
-├── sql/               # SQL queries, table schemas, and index definitions
-├── Dockerfile         # Optional: containerization setup
-├── requirements.txt   # Python dependencies
+
+├── Mileston1.pdf/         # The Workflow of project (explaining logical, physical schema of database) 
+
+├── Mileston2/  # Source code for ETL pipeline
+│   ├── milestone2dump.sql/           # Sql script which is used to dumb data which is gathered from UOW API to mysql wrokbench
+│   └── milestonequery.sql/     # Sql queries which perform typical EDA on UOW data
+│   └── data.zip/     # python file scrapped the data from UOW api- which will then be used for analysis and creating dashboard -Data ingestion from various sources
+│   └── milestone2pdf/     # A generic information about milestone 2 (from scrapping data from UOW API to Dumping data into database and exploratory data analysis with SQL queries)
+├── Milestone3/               
+│   ├── milstone3code.py     # UI code 
+│   ├── milestonspec.pdf   # Generic information about mileston 3 (developing UI which retrives data from database and show user) - (Tableu dashboard)
+
 └── README.md          # This file
 ```
