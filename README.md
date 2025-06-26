@@ -6,7 +6,7 @@ This repository contains an end-to-end ETL pipeline and analytics framework for 
 
 
 ## Project Structure
-.
+```
 ├── data/  
 │   ├── raw/           # Unprocessed input files (e.g., CSV, Excel)
 │   └── processed/     # Cleaned and transformed datasets
@@ -20,3 +20,4 @@ This repository contains an end-to-end ETL pipeline and analytics framework for 
 ├── Dockerfile         # Optional: containerization setup
 ├── requirements.txt   # Python dependencies
 └── README.md          # This file
+```
